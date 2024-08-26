@@ -1,0 +1,43 @@
+.weather-display{
+    text-align:center;
+    padding: 20px;
+}
+.weather-container{
+    text-align: left;
+    padding-left: 60px;
+}
+.chart-container {
+    margin-bottom:  30px;
+}
+.forecast{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.day{
+    flex: 1 0 12%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    text-align:  center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.day img{
+    width: 50px;
+    height: 50px;
+}
+
+h3{
+    margin-bottom: 10px;
+    font-size:  24px;
+    font-weight:  bold;
+}
+
+p{
+    margin: 5px 0;
+    font-size: 16px;
+}

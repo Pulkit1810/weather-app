@@ -1,0 +1,38 @@
+.weather-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.weather-search h2 {
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.weather-search input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.weather-search button {
+    padding: 10px 20px;
+    width: 140px;
+    background-color: green;
+    color:  white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.weather-search .history-button {
+    background-color: #6c757d;
+}
